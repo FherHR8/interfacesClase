@@ -1,0 +1,56 @@
+﻿<Window x:Class="OblligatorioInterfaces3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OblligatorioInterfaces3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Column="1" Content="Login" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+        <TextBox x:Name="email" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" Width="400" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="contrasena"  Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="4" TextWrapping="Wrap" Text="Contraseña" VerticalAlignment="Top" Width="400" Grid.ColumnSpan="2"/>
+        <Label Grid.Column="1" Content="email" HorizontalAlignment="Left" Margin="20,28,0,0" Grid.Row="3" VerticalAlignment="Top"/>
+        <Label Grid.Column="1" Content="contraseña" HorizontalAlignment="Left" Margin="20,28,0,0" Grid.Row="4" VerticalAlignment="Top"/>
+        <Button x:Name="entrar" Content="ENTRAR" Grid.Column="1" HorizontalAlignment="Left" Margin="75,15,0,0" Grid.Row="5" VerticalAlignment="Top" Width="100" Height="25"/>
+        <Label Content="¿No tienes una cuenta?" HorizontalAlignment="Left" Margin="193,0,0,0" Grid.Row="6" VerticalAlignment="Center" Width="250" Grid.ColumnSpan="2"/>
+        <Label Content="Olvidates tu contraseña?" HorizontalAlignment="Left" Margin="193,0,0,0" Grid.Row="7" VerticalAlignment="Center" Width="250" Grid.ColumnSpan="2"/>
+        
+            <Label Content="a" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="3" Grid.RowSpan="2" Width="700" Height="75">
+            <Label.Background>
+                <ImageBrush ImageSource="/logo.png"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="210,20,0,0" Grid.Row="4" VerticalAlignment="Top">
+            <Label.Background>
+                <ImageBrush ImageSource="/bloquear.png"/>
+            </Label.Background>
+        </Label>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="210,10,0,0" Grid.Row="3" VerticalAlignment="Top" >
+            <Label.Background>
+                <ImageBrush ImageSource="/correo.png"/>
+            </Label.Background>
+        </Label>
+        <Label Grid.Column="1" HorizontalAlignment="Left" Margin="90,0,0,0" Grid.Row="7" VerticalAlignment="Center" Height="40" Width="40">
+            <Label.Background>
+                <ImageBrush ImageSource="/sobre.png"/>
+            </Label.Background>
+        </Label>
+        <Label Grid.Column="1" Content="Registrate aquí" HorizontalAlignment="Left" Margin="75,0,0,0" Grid.Row="6" VerticalAlignment="Center" Foreground="Blue" />
+    </Grid>
+</Window>

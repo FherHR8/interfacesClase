@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bloquear.png" />
+    <None Remove="correo.png" />
+    <None Remove="logo.png" />
+    <None Remove="sobre.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bloquear.png" />
+    <Resource Include="correo.png" />
+    <Resource Include="logo.png" />
+    <Resource Include="sobre.png" />
+  </ItemGroup>
+
+</Project>
