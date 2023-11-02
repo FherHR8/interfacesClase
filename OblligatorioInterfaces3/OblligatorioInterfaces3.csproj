@@ -11,6 +11,8 @@
     <None Remove="bloquear.png" />
     <None Remove="correo.png" />
     <None Remove="logo.png" />
+    <None Remove="persona.png" />
+    <None Remove="rojoBlanco.jpg" />
     <None Remove="sobre.png" />
   </ItemGroup>
 
@@ -18,6 +20,8 @@
     <Resource Include="bloquear.png" />
     <Resource Include="correo.png" />
     <Resource Include="logo.png" />
+    <Resource Include="persona.png" />
+    <Resource Include="rojoBlanco.jpg" />
     <Resource Include="sobre.png" />
   </ItemGroup>
 

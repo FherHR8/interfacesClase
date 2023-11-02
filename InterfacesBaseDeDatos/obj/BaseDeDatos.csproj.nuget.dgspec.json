@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\Desktop\\InterfacesBaseDeDatos\\BaseDeDatos.csproj": {}
+    "C:\\Users\\Alumno\\Desktop\\github\\InterfacesClase\\InterfacesBaseDeDatos\\BaseDeDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\Desktop\\InterfacesBaseDeDatos\\BaseDeDatos.csproj": {
+    "C:\\Users\\Alumno\\Desktop\\github\\InterfacesClase\\InterfacesBaseDeDatos\\BaseDeDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\InterfacesBaseDeDatos\\BaseDeDatos.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\github\\InterfacesClase\\InterfacesBaseDeDatos\\BaseDeDatos.csproj",
         "projectName": "BaseDeDatos",
-        "projectPath": "C:\\Users\\Alumno\\Desktop\\InterfacesBaseDeDatos\\BaseDeDatos.csproj",
+        "projectPath": "C:\\Users\\Alumno\\Desktop\\github\\InterfacesClase\\InterfacesBaseDeDatos\\BaseDeDatos.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Desktop\\InterfacesBaseDeDatos\\obj\\",
+        "outputPath": "C:\\Users\\Alumno\\Desktop\\github\\InterfacesClase\\InterfacesBaseDeDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
