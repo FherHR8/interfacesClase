@@ -1,0 +1,13 @@
+Codigo: 1
+Nombre: aa
+Libros: a
+Opinion: a
+Tipo: Terror
+
+Codigo: 2
+Nombre: b
+Libros: b
+Opinion: b
+Tipo: Terror
+
+

@@ -1,0 +1,26 @@
+﻿<Window x:Class="FernandoHerreroR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FernandoHerreroR"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top" Height="30">
+                <MenuItem Header="USUARIO">
+                    <MenuItem Header="ENTRAR" Click="entra" ></MenuItem>
+                    <MenuItem Header="REGISTRARSE" Click="registro"></MenuItem>
+                    <MenuItem Header="BAJA" Click="baja" ></MenuItem>
+                    <MenuItem Header="SALIR" Click="sale" ></MenuItem>
+                </MenuItem>
+                <MenuItem Header="LIBROS">
+                    <MenuItem Header="AÑADIR" Click="anade"></MenuItem>
+                    <MenuItem Header="BUSCAR" Click="busca" ></MenuItem>
+                </MenuItem>
+            </Menu>
+            <Label></Label>
+        </DockPanel>
+    </Grid>
+</Window>

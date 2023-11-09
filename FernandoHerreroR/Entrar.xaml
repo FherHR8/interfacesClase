@@ -1,0 +1,25 @@
+﻿<Window x:Class="FernandoHerreroR.Entrar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FernandoHerreroR"
+        mc:Ignorable="d"
+        Title="Entrar" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="Codigo" HorizontalAlignment="Left" Margin="220,0,0,0" VerticalAlignment="Center"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="239,0,0,0" Grid.Row="1" VerticalAlignment="Center"/>
+        <Button x:Name="entrar" Content="Button" HorizontalAlignment="Left" Margin="239,73,0,0" Grid.Row="2" VerticalAlignment="Top" Click="entra"/>
+        <TextBox x:Name="co" Grid.Column="1" HorizontalAlignment="Left" Margin="169,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="no" Grid.Column="1" HorizontalAlignment="Left" Margin="169,72,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
