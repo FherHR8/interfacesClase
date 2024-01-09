@@ -13,12 +13,12 @@ namespace Pepe.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index() // Primera acción que se ejecuta
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Privacy() 
         {
             return View();
         }
