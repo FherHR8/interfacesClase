@@ -9,49 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pepe
 build_property.RootNamespace = Pepe
-build_property.ProjectDir = C:\Users\Alumno\Desktop\github\InterfacesClase\Pepe\
+build_property.ProjectDir = C:\Users\fervi\Desktop\GitHub\interfacesClase\Pepe\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Alumno\Desktop\github\InterfacesClase\Pepe
+build_property.MSBuildProjectDirectory = C:\Users\fervi\Desktop\GitHub\interfacesClase\Pepe
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Alumno/Desktop/github/InterfacesClase/Pepe/Views/Home/Index.cshtml]
+[C:/Users/fervi/Desktop/GitHub/interfacesClase/Pepe/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alumno/Desktop/github/InterfacesClase/Pepe/Views/Home/Privacy.cshtml]
+[C:/Users/fervi/Desktop/GitHub/interfacesClase/Pepe/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alumno/Desktop/github/InterfacesClase/Pepe/Views/Mantenedor/Crear.cshtml]
+[C:/Users/fervi/Desktop/GitHub/interfacesClase/Pepe/Views/Mantenedor/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuZWRvclxDcmVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alumno/Desktop/github/InterfacesClase/Pepe/Views/Mantenedor/Index.cshtml]
+[C:/Users/fervi/Desktop/GitHub/interfacesClase/Pepe/Views/Mantenedor/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuZWRvclxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fervi/Desktop/GitHub/interfacesClase/Pepe/Views/Mantenedor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuZWRvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alumno/Desktop/github/InterfacesClase/Pepe/Views/Mantenedor/inicio.cshtml]
+[C:/Users/fervi/Desktop/GitHub/interfacesClase/Pepe/Views/Mantenedor/inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuZWRvclxpbmljaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alumno/Desktop/github/InterfacesClase/Pepe/Views/Shared/Error.cshtml]
+[C:/Users/fervi/Desktop/GitHub/interfacesClase/Pepe/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alumno/Desktop/github/InterfacesClase/Pepe/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/fervi/Desktop/GitHub/interfacesClase/Pepe/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alumno/Desktop/github/InterfacesClase/Pepe/Views/_ViewImports.cshtml]
+[C:/Users/fervi/Desktop/GitHub/interfacesClase/Pepe/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alumno/Desktop/github/InterfacesClase/Pepe/Views/_ViewStart.cshtml]
+[C:/Users/fervi/Desktop/GitHub/interfacesClase/Pepe/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Alumno/Desktop/github/InterfacesClase/Pepe/Views/Shared/_Layout.cshtml]
+[C:/Users/fervi/Desktop/GitHub/interfacesClase/Pepe/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-reavpw5gg6
