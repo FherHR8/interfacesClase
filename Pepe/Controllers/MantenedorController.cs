@@ -52,14 +52,13 @@ namespace Pepe.Controllers
         public ActionResult Inicio()
         {
             Dictionary<string, contacto> lista = new Dictionary<string, contacto>();
-            FirebaseResponse response = cliente.Get("contactos");
+            FirebaseResponse response = cliente.Get("Contactos");
 
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 lista = JsonConvert.DeserializeObject<Dictionary<string, contacto>>(response.Body);
 
             List<contacto> listaContacto = new List<contacto>();
-            if ( lista != null )
-            {
+            
                 foreach (KeyValuePair<string, contacto> elemento in lista)
                 {
                     listaContacto.Add(new contacto()
@@ -70,14 +69,14 @@ namespace Pepe.Controllers
                         Telefono = elemento.Value.Telefono
                     });
                 }
-            }
+            
             
             return View(listaContacto);
         }
        
         public ActionResult Editar(string idcontacto)
         {
-            FirebaseResponse response = cliente.Get("contactos/" + idcontacto);
+            FirebaseResponse response = cliente.Get("Contactos/" + idcontacto);
 
             contacto ocontacto = response.ResultAs<contacto>();
             ocontacto.idContacto = idcontacto;
@@ -90,7 +89,7 @@ namespace Pepe.Controllers
             string idcontacto = oContacto.idContacto;
             oContacto.idContacto = null;
 
-            FirebaseResponse response = cliente.Update("contactos/" + idcontacto,oContacto);
+            FirebaseResponse response = cliente.Update("Contactos/" + idcontacto,oContacto);
 
             if(response.StatusCode == System.Net.HttpStatusCode.OK)
             {
@@ -103,7 +102,7 @@ namespace Pepe.Controllers
         }
         public ActionResult Eliminar(string idcontacto)
         {
-            FirebaseResponse response = cliente.Delete("contactos/" + idcontacto);
+            FirebaseResponse response = cliente.Delete("Contactos/" + idcontacto);
             return RedirectToAction("Inicio", "Mantenedor");
         }
     }
