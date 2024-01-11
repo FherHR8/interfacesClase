@@ -23,13 +23,18 @@ namespace Pepe.Controllers
             };
             cliente = new FirebaseClient(config);    
         }
-        [HttpPost]
 
+        public IActionResult Crear()
+        {
+            return View();
+        }
+
+        [HttpPost]
         public ActionResult Crear(contacto oContacto)
         {   //Añadimos un contacto en firebase y añade a la etiqueta contactos
             string IdGenerado = Guid.NewGuid().ToString("N");
-
-            SetResponse response = cliente.Set("contactos/" + IdGenerado, oContacto);
+            
+            SetResponse response = cliente.Set("Contactos/" + IdGenerado, oContacto);
 
             if(response.StatusCode == System.Net.HttpStatusCode.OK)
             {
@@ -40,10 +45,10 @@ namespace Pepe.Controllers
                 return View();
             }
         }
-        /*public IActionResult Index()
+        public IActionResult Index()
         {
             return View();
-        }*/
+        }
         public ActionResult Inicio()
         {
             Dictionary<string, contacto> lista = new Dictionary<string, contacto>();
@@ -53,27 +58,23 @@ namespace Pepe.Controllers
                 lista = JsonConvert.DeserializeObject<Dictionary<string, contacto>>(response.Body);
 
             List<contacto> listaContacto = new List<contacto>();
-
-            foreach(KeyValuePair<string, contacto> elemento in lista)
+            if ( lista != null )
             {
-                listaContacto.Add(new contacto()
+                foreach (KeyValuePair<string, contacto> elemento in lista)
                 {
-                    idContacto = elemento.Key,
-                    Nombre = elemento.Value.Nombre,
-                    Correo = elemento.Value.Correo,
-                    Telefono = elemento.Value.Telefono
-                });
+                    listaContacto.Add(new contacto()
+                    {
+                        idContacto = elemento.Key,
+                        Nombre = elemento.Value.Nombre,
+                        Correo = elemento.Value.Correo,
+                        Telefono = elemento.Value.Telefono
+                    });
+                }
             }
+            
             return View(listaContacto);
         }
-        public IActionResult Inici()
-        {
-            return View();
-        }
-        public IActionResult Crear()
-        {
-            return View();
-        }
+       
         public ActionResult Editar(string idcontacto)
         {
             FirebaseResponse response = cliente.Get("contactos/" + idcontacto);
@@ -99,14 +100,6 @@ namespace Pepe.Controllers
             {
                 return View();
             }
-        }
-        public IActionResult Edita()
-        {
-            return View();
-        }
-        public IActionResult Eliminar()
-        {
-            return View();
         }
         public ActionResult Eliminar(string idcontacto)
         {

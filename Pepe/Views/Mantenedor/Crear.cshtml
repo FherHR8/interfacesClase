@@ -9,7 +9,7 @@
         <h4>Crear contacto</h4>
     </div>
     <div class="panel-body">
-        <form action="@Url.Action("Crear","Mantenedor") method="post">
+        <form action="@Url.Action("Crear","Mantenedor")" method="post">
             <div class="form-group">
                 <label>Nombre</label>
                 <input class="form-control" type="text" name="Nombre" />
@@ -22,8 +22,10 @@
                 <label>Telefono</label>
                 <input class="form-control" type="text" name="Telefono" />
             </div>
-            <button type="submit" class="btn btn-prymary">Registrar</button>
-            <a class="btn btn-danger" href="@Url.Action("Inicio","Mantenedor")">Volver</a>"
+
+            <hr />
+            <button type="submit" class="btn btn-primary"> Registrar </button>
+            <a class="btn btn-danger" href="@Url.Action("Inicio","Mantenedor")">Volver</a>
         </form>
     </div>
 </div>

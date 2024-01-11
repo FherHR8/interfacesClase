@@ -22,6 +22,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Mantenedor}/{action=Crear}/{id?}");
+    pattern: "{controller=Mantenedor}/{action=Inicio}/{id?}");
 
 app.Run();
