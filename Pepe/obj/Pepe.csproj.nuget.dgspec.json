@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\Desktop\\github\\InterfacesClase\\Pepe\\Pepe.csproj": {}
+    "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\Pepe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\Desktop\\github\\InterfacesClase\\Pepe\\Pepe.csproj": {
+    "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\Pepe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\github\\InterfacesClase\\Pepe\\Pepe.csproj",
+        "projectUniqueName": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\Pepe.csproj",
         "projectName": "Pepe",
-        "projectPath": "C:\\Users\\Alumno\\Desktop\\github\\InterfacesClase\\Pepe\\Pepe.csproj",
-        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Desktop\\github\\InterfacesClase\\Pepe\\obj\\",
+        "projectPath": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\Pepe.csproj",
+        "packagesPath": "C:\\Users\\fervi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fervi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
