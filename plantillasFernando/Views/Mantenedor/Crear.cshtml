@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Crear";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<div class="panel panel-primary" style="background-color:lightgreen; padding:15%">
+    <div class="panel-heading">
+        <h1 style="text-align:center">BIENVENIDO</h1>
+    </div>
+    <div class="panel-body">
+        <form action="@Url.Action("Crear","Mantenedor")" method="post"><!--Formulario para mediante post, enviar petición al metodo crear de mantenedor-->
+            <div class="form-group">
+                <label>Usuario</label>
+                <input class="form-control" type="text" name="nombreUsuario" />
+            </div>
+            <div class="form-group">
+                <label>Equipo</label>
+                <input class="form-control" type="text" name="equipo" />
+            </div>
+            <hr />
+            <button type="submit" class="btn btn-primary"> Empezar </button>
+        </form>
+    </div>
+</div>
+

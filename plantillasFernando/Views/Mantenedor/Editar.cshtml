@@ -1,0 +1,53 @@
+﻿@model plantillasFernando.Models.Jugador
+@{
+    ViewBag.Title = "Editar";
+    string equipo = ViewBag.nombre;
+    int presupuesto = ViewBag.presupuesto;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<div style="background-color:lightgreen; padding:7%" class="panel panel-primary">
+    <div class="panel-heading">
+        <h4 style="text-align:center">Fichar Jugador para @equipo</h4>
+        <h3 style="text-align:center">Presupuesto: @presupuesto</h3>
+    </div>
+    <div class="panel-body">
+        <form action="@Url.Action("Editar","Mantenedor")" method="post">
+            <input type="hidden" name="IdUsuario" value="@Html.DisplayTextFor(m => m.idJugador)" />
+            <div class="form-group">
+                <label>Nombre</label>
+                <input disabled class="form-control" type="text" name="nombre" value="@Html.DisplayTextFor(m => m.nombre)" />
+            </div>
+            <div class="form-group">
+                <label>Apellido1</label>
+                <input disabled class="form-control" type="text" name="apellido1" value="@Html.DisplayTextFor(m => m.apellido1)" />
+            </div>
+            <div class="form-group">
+                <label>Apellido2</label>
+                <input disabled class="form-control" type="text" name="apellido2" value="@Html.DisplayTextFor(m => m.apellido2)" />
+            </div>
+            <div class="form-group">
+                <label>Valor</label>
+                <input disabled class="form-control" type="text" name="valor" value="@Html.DisplayTextFor(m => m.valor)" />
+            </div>
+            <div class="form-group">
+                <label>Equipo</label>
+                <!--Similar al ngIf de angular-->
+                @if (@equipo.Equals("libre"))
+                {
+                    <input disabled class="form-control" type="text" name="equipo" value="@equipo" />
+                }
+                else
+                {
+                    <input disabled class="form-control" type="text" name="equipo" value="libre" />
+                } 
+            </div>
+
+            <hr />
+            <button type="submit" class="btn btn-primary">Realizar operación</button>
+            <a class="btn btn-danger" href="@Url.Action("Inicio","Mantenedor")">Volver</a>
+            <a></a>
+        </form>
+    </div>
+</div>
+

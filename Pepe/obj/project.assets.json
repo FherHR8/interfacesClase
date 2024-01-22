@@ -492,9 +492,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\Pepe.csproj",
-      "projectName": "Pepe",
-      "projectPath": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\Pepe.csproj",
+      "projectUniqueName": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\ejemploIsa.csproj",
+      "projectName": "ejemploIsa",
+      "projectPath": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\ejemploIsa.csproj",
       "packagesPath": "C:\\Users\\fervi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\obj\\",
       "projectStyle": "PackageReference",
