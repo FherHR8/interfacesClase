@@ -1,0 +1,91 @@
+﻿@model IEnumerable<plantillasFernando.Models.Jugador>
+<!--Lista de Jugadores es el modelo que utilizamos (solo nos deja uno, problema-->
+@{
+    ViewBag.Title = "Inicio";
+    string equipo = ViewBag.nombre;<!--Los viewBag nos ayudan a mostrar datos de otras clases-->
+    int presupuesto = ViewBag.presupuesto;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+
+<div style="background-color:lightgreen" class="panel panel-primary">
+    <div class="panel-heading">
+    </div>
+    <div class="panel-body">
+        <a class="btn btn-success" href="@Url.Action("Crear", "Mantenedor")">Volver</a><!--Donde se dirige tras realizar la acción-->
+        <h4 style="text-align:center">Jugadores de @equipo</h4>
+        <h3 style="text-align:center"> PRESUPUESTO: @presupuesto €</h3>
+        <hr />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido1</th>
+                    <th>Apellido2</th>
+                    <th>Valor</th>
+                    <th>Equipo</th>
+                    <th style="width:150px"></th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <!--foreach solo de los que cumplen la condición-->
+                    @foreach (var item in Model.Where(x => x.equipoJugador != "libre"))
+                {
+                    <tr>
+                        <td>@item.idJugador</td>
+                        <td>@item.nombre</td>
+                        <td>@item.apellido1</td>
+                        <td>@item.apellido2</td>
+                        <td>@item.valor €</td>
+                        <td>@item.equipoJugador</td>
+                        <td>
+  
+                            <a class="btn btn-danger btn-sm" href="@Url.Action("Editar", "Mantenedor", new { idJugador = item.idJugador })">Despedir</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div style="background-color:greenyellow" class="panel panel-primary">
+    <div class="panel-heading">
+        <h4 style="text-align:center">Lista de jugadores libres</h4>
+    </div>
+    <div class="panel-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido1</th>
+                    <th>Apellido2</th>
+                    <th>Valor</th>
+                    <th>Equipo</th>
+                    <th style="width:150px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Where(x => x.equipoJugador == "libre"))
+                {
+                    <tr>
+                        <td>@item.idJugador</td>
+                        <td>@item.nombre </td>
+                        <td>@item.apellido1</td>
+                        <td>@item.apellido2</td>
+                        <td>@item.valor €</td>
+                        <td>@item.equipoJugador</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" href="@Url.Action("Editar", "Mantenedor", new { idJugador = item.idJugador })">Fichar</a>
+                            
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

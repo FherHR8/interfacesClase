@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V5nU0ulLnoJGKs4mhDxIP3Xg+hMAfkn/fzRaxQugKEkAmGA4o5S2kzz/tHEiflW97CzNx9Ef8I4nv3kfNmUBUA==",
+  "dgSpecHash": "yVuEBEDrbrK/L1yLvCwkFLO0w44qncFi1oD9oUz1uOYVKSgIgDGAipSlh0tKZl4UJtL3dNjQ9rM8qJOvAfHRww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\Pepe.csproj",
+  "projectFilePath": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\ejemploIsa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fervi\\.nuget\\packages\\firesharp\\2.0.4\\firesharp.2.0.4.nupkg.sha512",
     "C:\\Users\\fervi\\.nuget\\packages\\microsoft.bcl\\1.1.9\\microsoft.bcl.1.1.9.nupkg.sha512",

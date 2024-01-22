@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Pepe.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Pepe.bundle.scp.css"
+      "Id": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ejemploIsa.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ejemploIsa.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\fervi\\Desktop\\GitHub\\interfacesClase\\Pepe\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Pepe.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ejemploIsa.props",
+      "PackagePath": "build\\ejemploIsa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ejemploIsa.props",
+      "PackagePath": "buildMultiTargeting\\ejemploIsa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ejemploIsa.props",
+      "PackagePath": "buildTransitive\\ejemploIsa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ejemploIsa.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
-    },
-    {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Pepe.props",
-      "PackagePath": "build\\Pepe.props"
-    },
-    {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Pepe.props",
-      "PackagePath": "buildMultiTargeting\\Pepe.props"
-    },
-    {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Pepe.props",
-      "PackagePath": "buildTransitive\\Pepe.props"
     }
   ],
   "ElementsToRemove": []
