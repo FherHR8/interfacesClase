@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("plantillasFernando")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4cb95d77161d14ab280ee673e1f964bfa838ea9")]
 [assembly: System.Reflection.AssemblyProductAttribute("plantillasFernando")]
 [assembly: System.Reflection.AssemblyTitleAttribute("plantillasFernando")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
